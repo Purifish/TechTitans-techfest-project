@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Home.css"
-// import logo from "../images/storeit-front.png"
-// import workone from "../images/workone.png"
-// import workthree from "../images/worktwo.png"
-// import worktwo from "../images/workthree.png"
+import logo from "../images/search.png"
+import workone from "../images/compass.jpg"
+import worktwo from "../images/study.jpg"
+import workthree from "../images/code.jpg"
+import workfour from "../images/interview.jpg"
+import workfive from "../images/match.jpg"
 import { Button } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 
@@ -30,7 +32,7 @@ function Home() {
             >Explore Now
           </Button>
         </div>
-        {/* <img class="section-a-image" src={logo} alt="" /> */}
+        { <img class="section-a-image" src={logo} alt="" /> }
       </div>
     </section>
 
@@ -51,24 +53,29 @@ function Home() {
     <h1 class="section-c-h1">Key Features</h1>
     <section class="features">
     <div class="feature-container">
-      {/* <img src={workone} alt="Flexbox Feature"/> */}
+      {<img src={workone} alt="Flexbox Feature"/>}
       <h2 class="section-c-h2">Career Explorer</h2>
-      <p class="section-c-p">To be a Developer, Engineer or Analyst? Explore the various types of Tech roles available for you today!</p>
+      <p class="section-c-p">Deciding to be a Developer, Engineer or Analyst? Explore the various types of Tech roles available for you today!</p>
     </div>
     <div class="feature-container">
-      {/* <img src={worktwo} alt="Flexbox Feature"/> */}
+      {<img src={worktwo} alt="Flexbox Feature"/>}
       <h2 class="section-c-h2">Skill Builder</h2>
       <p class="section-c-p">Enrol in recommended Online Courses with Certificates customized for your desired career!</p>
     </div>
     <div class="feature-container">
-      {/* <img src={workthree} alt="Flexbox Feature"/> */}
-      <h2 class="section-c-h2">Coding Enhancer</h2>
+      {<img src={workthree} alt="Flexbox Feature"/>}
+      <h2 class="section-c-h2">Coding Advancer</h2>
       <p class="section-c-p">Tackle programming assignments and face off head-to-head with your peers!</p>
     </div>
     <div class="feature-container">
-      {/* <img src={workfour} alt="Flexbox Feature"/> */}
+      {<img src={workfour} alt="Flexbox Feature"/>}
       <h2 class="section-c-h2">Mock Interview</h2>
       <p class="section-c-p">Experience taking an interview for your desired tech job!</p>
+    </div>
+    <div class="feature-container">
+      {<img src={workfive} alt="Flexbox Feature"/>}
+      <h2 class="section-c-h2">Career Matchmaker</h2>
+      <p class="section-c-p">Participate in our curated career matching services to find out suitable career options!</p>
     </div>
   </section>
 
