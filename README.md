@@ -5,25 +5,31 @@
 
 ## Table of contents
 
-- [About us](#about-us)
+- [Introduction](#introduction)
 - [Key features](#key-features)
+- [Key features](#key-features)
+    - [Career Explorer](#career-explorer)
+    - [Skill Builder](#skill-builder)
+    - [Coding Advancer](#coding-advancer)
+    - [Mock Interviewer](#mock-interviewer)
 - [Technologies](#technologies)
 - [Contributors](#contributors)
 
-## General Information
 
-## About Us
+## Introduction
 
-
-## User Stories
 
 ## Key features
 
-**Explore page**
+### Career Explorer
 
-**Contact us** 
+### Skill Builder
 
-**Admin page**
+### Coding Advancer
+
+### Mock Interviewer
+
+
 
 ## Technologies
 
