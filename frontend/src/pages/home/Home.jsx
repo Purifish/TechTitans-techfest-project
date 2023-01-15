@@ -25,7 +25,7 @@ function Home() {
               sx={{width:"40%" ,margin:"auto",mt: 2, borderRadius:7, height: 50}} 
               variant="contained"
               onClick={() => {
-                navigate("/order")
+                navigate("/explore")
               }}
             >Explore Now
           </Button>

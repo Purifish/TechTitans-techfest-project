@@ -5,7 +5,7 @@ import { Link, useNavigate  } from 'react-router-dom';
 import MuiDrawer from './MuiDrawer';
 // import StoreIt from '../assets/storeIT.jpg'
 function Navbar() {
-    const linksArr = ["home", "explore"]
+    const linksArr = ["home", "explore", 'skill', 'training', 'interview', 'matchmaker']
     const [value, setValue] = useState()
     const navigate = useNavigate()
     const isNonMobileScreens = useMediaQuery("(min-width: 1000px)")
