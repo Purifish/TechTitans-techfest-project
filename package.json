@@ -1,0 +1,30 @@
+{
+  "name": "techtitans-techfest-project",
+  "version": "1.0.0",
+  "description": "**Description** : \r <br>Website link: </br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purifish/TechTitans-techfest-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purifish/TechTitans-techfest-project/issues"
+  },
+  "homepage": "https://github.com/Purifish/TechTitans-techfest-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
