@@ -16,9 +16,9 @@ function Home() {
     <section class="section-a">
       <div class="home-container">
         <div>
-          <h1 class="section-a-h1">StoreIT with us!</h1>
+          <h1 class="section-a-h1">TechTitans</h1>
           <p class="section-a-p">
-            Storage space solutions for campus dwellers!
+            Navigating Exciting Careers in the Tech Industry!
           </p>
           <Button 
               type= "submit" 
@@ -27,7 +27,7 @@ function Home() {
               onClick={() => {
                 navigate("/order")
               }}
-            >Order now
+            >Explore Now
           </Button>
         </div>
         {/* <img class="section-a-image" src={logo} alt="" /> */}
@@ -37,34 +37,38 @@ function Home() {
     <section class="section-b">
       <div class="overlay">
         <div class="section-b-inner py-5">
-          <h3 class="text-2">What's the problem?</h3>
-          <h2 class="text-5">It's a hassle to move things back home</h2>
+          <h3 class="text-2">Uncertain of future career path in the tech industry?</h3>
+          <h2 class="text-5">TechTitans got your back.</h2>
           <p class="mt-1">
-            Moving day can be a pain in the ass. Shifting tons of things can be
-            a real hassle, and storing it in school can be costly too, especially 
-            if you're a foreign student moving back home. As such, StoreIT is created to  
-            meet your storage needs.
+            Everyone has an ideal career but not everyone is able to realise it.
+            Figuring out our individual career path may not be an easy job.
+            Navigate the features by TechTitans to find out more!
           </p>
         </div>
       </div>
     </section>
     
-    <h1 class="section-c-h1">How it works</h1>
+    <h1 class="section-c-h1">Key Features</h1>
     <section class="features">
     <div class="feature-container">
       {/* <img src={workone} alt="Flexbox Feature"/> */}
-      <h2 class="section-c-h2">Make an order through our web app</h2>
-      <p class="section-c-p">Simply go under order and fill up the form with details such as your contact, residence, number of items and its respective sizes.</p>
+      <h2 class="section-c-h2">Career Explorer</h2>
+      <p class="section-c-p">To be a Developer, Engineer or Analyst? Explore the various types of Tech roles available for you today!</p>
     </div>
     <div class="feature-container">
       {/* <img src={worktwo} alt="Flexbox Feature"/> */}
-      <h2 class="section-c-h2">We pick up your items and store it with us</h2>
-      <p class="section-c-p">A fellow student will come down and pick up your items at the time and place of your choice.</p>
+      <h2 class="section-c-h2">Skill Builder</h2>
+      <p class="section-c-p">Enrol in recommended Online Courses with Certificates customized for your desired career!</p>
     </div>
     <div class="feature-container">
       {/* <img src={workthree} alt="Flexbox Feature"/> */}
-      <h2 class="section-c-h2">We deliver it back whenever you need it</h2>
-      <p class="section-c-p">When you're ready to return to campus and collect your items, we will send them back to you.</p>
+      <h2 class="section-c-h2">Coding Enhancer</h2>
+      <p class="section-c-p">Tackle programming assignments and face off head-to-head with your peers!</p>
+    </div>
+    <div class="feature-container">
+      {/* <img src={workfour} alt="Flexbox Feature"/> */}
+      <h2 class="section-c-h2">Mock Interview</h2>
+      <p class="section-c-p">Experience taking an interview for your desired tech job!</p>
     </div>
   </section>
 
