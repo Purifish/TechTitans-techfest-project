@@ -20,20 +20,20 @@
 We believe job search should be light, not stressful and complicated. We created this data-oriented and functional-based web app to help individuals clarify their career paths in the Tech industry and bring awareness to the available tech jobs. We do not want to create an environment of jealousy and competition among job seekers but rather a supportive platform where industry leaders, small start-ups or big tech veterans can share their knowledge in their fields to expose the younger generations what they will be expecting if they are embarking on a similar journey. 
 
 
-## Key features[![](./README_docsAndimages/pin.svg)]
+## Key features[![](./README_docsAndimages/pin.svg)](#key-features)
 
-### Career Explorer
+### Career Explorer (#career-explorer)
 
-### Skill Builder
+### Skill Builder (#skill-builder)
 This tool is created to assist developers/job seekers to find out what are the in demand skills headhunters/recruiters are currently looking for. Filtering skillsets according to their career preferences, this tool personalises the experience for job seekers and recommends courses from SkillsFuture/Coursera to upskill themselves to increase their employability.
 
-### Coding Advancer
+### Coding Advancer (#coding-advancer)
 
-### Mock Interviewer
+### Mock Interviewer (#mock-interviewer)
 
 
 
-## Technologies[![](./README_docsAndimages/pin.svg)]
+## Technologies[![](./README_docsAndimages/pin.svg)](#technologies)
 
 Project is created with:
 
