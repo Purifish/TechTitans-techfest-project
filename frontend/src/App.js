@@ -1,5 +1,5 @@
 import Home from "./pages/home/Home";
-import Explore from "./pages/explore/Explore";
+import Explore from "./pages/explore/Getposts";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Interview from "./pages/interview/Interview";
