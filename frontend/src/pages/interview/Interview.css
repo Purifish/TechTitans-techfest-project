@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-body,
-html {
-  background: #f9f9f9;
-  font-family: "Montserrat", sans-serif;
-}
-span,
-div,
-p {
-  font-family: "Montserrat", sans-serif;
-}
-h1 {
-  text-align: center;
-  color: #393939;
-  font-size: 3em;
-  font-weight: 100;
-  margin: 0px;
-}
+
 .chart {
   font-family: Roboto;
   border-radius: 5px;
@@ -89,22 +73,6 @@ h1 {
   display: inline-block;
   text-align: center;
 }
-.header {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  background: #f9f9f9;
-  border-bottom: 1px solid #dedede;
-  box-shadow: 0 0px 6px 0px #858585;
-}
-
-.footer {
-  position: absolute;
-  bottom: -7%;
-  right: 0px;
-  color: #333;
-}
 
 @media only screen and (max-width: 800px) {
   .chart {
@@ -157,10 +125,4 @@ h1 {
     width: 65%;
     left: 35%;
   }
-}
-
-p {
-  width: 90%;
-  margin: 0px auto;
-  text-align: center;
 }
