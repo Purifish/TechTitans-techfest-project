@@ -34,7 +34,7 @@ function Navbar() {
                         },
                     }}
                     >
-                    StoreIT
+                    TechTitans
                 </Typography>
                 {/* DESKTOP NAV n Mobile NAV*/}
                 {isNonMobileScreens ? (<Tabs TabIndicatorProps={{style: {backgroundColor: "white"}}} value={value} onChange={(e, val) => setValue(val)} sx={{ml: "auto", textDecoration: "none"}}>
