@@ -1,0 +1,254 @@
+:root {
+  --primary-color: #2a81df;
+  --secondary-color: #76b3ed;
+  --overlay-color: rgba(0, 0, 0, 0.7);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage {
+  font-family: "Catamaran", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.section-a-h1 {
+  line-height: 0.9;
+}
+
+.section-c-h2 {
+  line-height: 1;
+}
+
+.text-5 {
+  line-height: 1.2;
+}
+
+.text-2 {
+  line-height: 1;
+  padding-bottom: 50px;
+}
+
+.section-a-image {
+  width: 130%;
+}
+
+.home-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+/*section a code */
+.section-a {
+  margin: 2rem 0;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.section-a .home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-a h1 {
+  font-size: 5rem;
+  color: var(--primary-color);
+}
+
+.section-a p {
+  margin: 1rem 0;
+  color: #326fa9;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  line-height: 1.2;
+}
+
+/*button code*/
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
+
+/* section b*/
+
+.section-b {
+  position: relative;
+  background: url("https://www.priceselfstorage.com/blog/wp-content/uploads/2015/12/stacked-labeled-boxes.jpg")
+    no-repeat bottom center/cover;
+  height: 900px;
+}
+
+.section-b-inner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+}
+
+.section-b-inner h3 {
+  font-size: 2rem;
+}
+
+.section-b-inner h2 {
+  font-size: 5rem;
+  margin-top: 1rem;
+}
+
+.mt-1 {
+  padding-top: 30px;
+}
+
+.section-b-inner p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* section c*/
+
+.section-c-h1 {
+  font-family: "Catamaran", sans-serif;
+  color: var(--primary-color);
+  font-size: 3rem;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-c-p {
+  text-align: center;
+  line-height: 1.4;
+}
+
+.section-c-h2 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.features {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.feature-container {
+  flex-basis: 30%;
+  margin-top: 10px;
+}
+
+.feature-container p {
+  color: #326fa9;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.feature-container img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/*mobile responsiveness */
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--overlay-color);
+}
+
+@media (max-width: 700px) {
+  .section-a .home-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .section-a .home-container div:first-child {
+    order: 2;
+  }
+
+  .section-a .home-container div:nth-child(2) {
+    order: -1;
+  }
+
+  .section-a img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .section-a-h1 {
+    padding-bottom: 1.5rem;
+  }
+
+  .section-a-p {
+    font-size: 10px;
+  }
+
+  .section-b-inner p {
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  .section-b-inner h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .section-b {
+    height: 800px;
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .feature-container p {
+    margin-bottom: 25px;
+  }
+
+  .feature-container {
+    margin-top: 20px;
+  }
+
+  .feature-container:nth-child(1) {
+    order: -1;
+  }
+}
