@@ -23,7 +23,7 @@ export default function Footer() {
         <Grid item md={6} lg={4}>
           <FooterTitle variant="body1">About us</FooterTitle>
           <Typography variant="caption2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic dignissimos laudantium beatae! Sequi a nihil id ex. Eaque, ut rerum dolorum eligendi quo, amet aperiam ab deleniti sed magnam cum.
+            TechTitans aims to bring creative solutions to help aspiring techies to determine their career paths in the tech industry through increasing outreach to the student population. We hope to give users a customized exprience in navigating through their journey to clinch their desired jobs.
           </Typography>
           <Box
             sx={{
