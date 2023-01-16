@@ -23,18 +23,18 @@
   position: absolute;
   left: 0;
   top: 83px;
-  width: 465px;
+  width: 455px;
 }
 
 .cart-details {
-  width: 540px;
+  width: 600px;
   height: 700px;
   background-color: #ffffff;
-  padding-left: 80px;
+  padding-left: 70px;
   padding-right: 20px;
   padding-top: 75px;
   padding-bottom: 75px;
-  box-shadow: -31px 3px 67px -35px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 3px 67px -35px rgba(0, 0, 0, 0.8);
   position: relative;
   z-index: 1;
 }
@@ -52,7 +52,7 @@
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .feature-title {
@@ -91,7 +91,7 @@
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.28px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .details-item {
