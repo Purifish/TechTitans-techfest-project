@@ -1,6 +1,6 @@
 # TechTitans-techfest-project
 
-**Description** : 
+**Description** : TechTitans aims to bring creative solutions to help aspiring techies to determine their career paths in the tech industry through increasing outreach to the student population. We hope to give users a customized exprience in navigating through their journey to clinch their desired jobs.
 <br>Website link: </br>
 
 ## Table of contents
@@ -11,6 +11,7 @@
     - [Skill Builder](#skill-builder)
     - [Coding Advancer](#coding-advancer)
     - [Mock Interviewer](#mock-interviewer)
+    - [Career Matchmaker](#career-matchmaker)
 - [Technologies](#technologies)
 - [Contributors](#contributors)
 
@@ -37,8 +38,15 @@ This tool is created to assist developers/job seekers to find out what are the i
 
 Project is created with:
 
-- MongoDB
-- ExpressJS
 - React version: 18.2.0
 - NodeJS
 - Material UI
+
+## Contributors
+
+| Profile                                                                                                                                           | Name             | School                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | -------------------------------------- |
+| <a href='https://github.com/LimJiaEarn' title='LimJiaEarn'> <img src='https://github.com/LimJiaEarn.png' height='50' width='50'/></a> | Lim Jia Earn       | Nanyang Technological University (NTU) |
+| <a href='https://github.com/yuandjom' title='yuandjom'> <img src='https://github.com/yuandjom.png' height='50' width='50'/></a>                   | Lim Zi Yang John | Nanyang Technological University (NTU) |
+| <a href='https://github.com/jklye' title='jklye'> <img src='https://github.com/jklye.png' height='50' width='50'/></a>                   | Lye Jin Kai | Nanyang Technological University (NTU) |
+| <a href='https://github.com/Purifish' title='Purifish'> <img src='https://github.com/Purifish.png' height='50' width='50'/></a>                   | Muqaffa Al-Afham Bin Kamaruzaman  | Nanyang Technological University (NTU) |
