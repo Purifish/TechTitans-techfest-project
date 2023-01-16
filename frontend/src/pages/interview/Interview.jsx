@@ -11,8 +11,10 @@ function Interview() {
     <section class="features">
     <Box padding={50}>
     <div class="feature-container">
-      {<img src={Pic1} alt="Flexbox Feature"/>}
       
+    {<img src={Pic1} width="3000" height="300"/>}
+      
+
     </div>
 
     </Box>
@@ -21,8 +23,6 @@ function Interview() {
 
     </section>
 
-// {<img src={../images/InterviewPagePic.jpg} alt="Flexbox Feature"/>}
-
 
     
 
@@ -30,3 +30,9 @@ function Interview() {
 }
 
 export default Interview
+
+// {<img src={../images/InterviewPagePic.jpg} alt="Flexbox Feature"/>}
+
+// {<img src={Pic1} width="6000" height="600"/>}
+
+//{<img src={Pic1} width="1920" height="1024" style="width: 100%; height: auto;"></img>}
