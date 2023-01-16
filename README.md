@@ -42,7 +42,7 @@ Project is created with:
 - NodeJS
 - Material UI
 
-## Contributors
+## Contributors[![](./README_docsAndimages/pin.svg)](#contributors)
 
 | Profile                                                                                                                                           | Name             | School                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | -------------------------------------- |
