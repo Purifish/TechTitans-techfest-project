@@ -1,8 +1,8 @@
 import React ,{useEffect, useState } from 'react'
 import Post from './Explore.jsx'
 import './Getpost.css'
-import { Grid } from '@mui/material';
-
+import { Box, Grid, Typography } from '@mui/material';
+import csitLogo from '../../assets/csit-logo.png'
 export default function Getposts() {
 
   const [posts, setPosts] = useState([
@@ -13,7 +13,8 @@ export default function Getposts() {
     msg: "message this is it", 
     rating: "5.0 stars", 
     image: "jpg stuff", 
-    role: "Frontend"
+    role: "Frontend", 
+    img: csitLogo
   }, 
     {
     _id: "2",
@@ -67,14 +68,19 @@ export default function Getposts() {
 
 
     return (
-      <Grid
+
+     <Grid
         container
         spacing= {4}
         paddingLeft = {40}
         paddingRight = {40}
         justifyContent = "center"
       >
-
+      <Grid container>
+        <Grid item>
+          <Typography paddingTop={20} variant="h3">Explore your Career options with CSIT and more!</Typography>
+        </Grid>
+      </Grid> 
           {posts?.map((posts) => {
             return(
               <Grid item xs={12} sm={6} md={4}>

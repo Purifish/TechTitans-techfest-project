@@ -29,9 +29,9 @@ export default function Explore({posts}) {
     >
       <Grid container spacing={3}>
         <Grid item>
-          {/* <ButtonBase sx={{ width: 128, height: 128 }}>
-            <Img alt="small-box" src={smallBoxImage} />
-          </ButtonBase> */}
+          <ButtonBase sx={{ width: 128, height: 128 }}>
+            <Img alt="small-box" src={posts.img} />
+          </ButtonBase>
         </Grid>
         <Grid item xs={12} sm container>
           <Grid item xs container direction="column" spacing={2}>
