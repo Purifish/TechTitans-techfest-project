@@ -11,7 +11,7 @@
     - [Skill Builder](#skill-builder)
     - [Coding Advancer](#coding-advancer)
     - [Mock Interviewer](#mock-interviewer)
-    - [Career Matching](#career-matching)
+    - [Career Matcher](#career-matcher)
 - [Technologies](#technologies)
 - [Contributors](#contributors)
 
