@@ -1,13 +1,13 @@
 import React from 'react'
 import './Individual.css'
+import govtechLogo from '../../assets/govtech-logo.png'
 
 function Individual() {
   return (
     <>
         <div class="card-wrapper">
         <div class="card-photo-block">
-            <img class="card-product-logo" src="https://i.postimg.cc/2S0VTPSp/logo.png" alt="logo" />
-            <img class="card-product-image" src="https://i.postimg.cc/V6rrJDwx/camera.png" alt="photo" />
+            <img class="card-product-image" src={govtechLogo} alt="photo" />
 	    </div>
 
             <div class="cart-details">
@@ -36,27 +36,12 @@ function Individual() {
                     <div id="price" class="price" data-price="599" >$599</div>
                     <div class="old-price">Old Price: $799</div>
                 </div>
-                <button id="addToCart" class="button">Add to Cart</button>
-                <button class="button-wish-list">Add to Wishlist</button>
+                <button id="addToCart" class="button">Apply now</button>
+                <button class="button-wish-list">Bookmark this page</button>
             </div>
         </div>
 
         <div class="cart">
-        	<div class="cart-img-wrapper">
-        		<img class="cart-img" src="https://i.postimg.cc/mDzh4R7C/shopping-cart.png" alt="cart-img"/>
-        	</div>
-        	<div class="cart-text">
-        	<div id="cart-empty"> Корзина пуста
-        	</div>
-        	
-        	<div id="cart-with-items" class="cart-with-items">
-        		В корзине <span id="items-count" class="cart-items">5</span> товаров на сумму <span 
-        		id ="price-total" class="cart-items">3000</span> 
-        	</div>
-        </div>
-        	<div id="clear-cart" class="clear-cart">
-        		Очистить корзину
-        	</div>
         </div>
     </>
 

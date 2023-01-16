@@ -1,27 +1,19 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Box, Typography } from '@mui/material';
 import Pic1 from "../images/InterviewPic.png"
 
 
 function Interview() {
-  const percentage = 73
   
   return (
-    <section class="features">
-    <Box padding={50}>
-    <div class="feature-container">
+    <Box
+    margin="auto" 
+    paddingTop="40px" width = '100%' paddingLeft="150px">
       
-    {<img src={Pic1} width="3000" height="300"/>}
+    {<img src={Pic1} width="1600" height="800"/>}
       
-
-    </div>
-
     </Box>
 
-    
-
-    </section>
 
 
     

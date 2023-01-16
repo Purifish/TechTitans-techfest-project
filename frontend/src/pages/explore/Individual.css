@@ -8,7 +8,7 @@
 .card-photo-block {
   width: 465px;
   height: 610px;
-  background-color: #ffd617;
+  background-color: #ffffff;
   position: relative;
   margin-top: 45px;
 }
@@ -21,8 +21,9 @@
 
 .card-product-image {
   position: absolute;
-  left: -134px;
+  left: 0;
   top: 83px;
+  width: 465px;
 }
 
 .cart-details {
