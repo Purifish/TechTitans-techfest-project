@@ -105,7 +105,7 @@ export default function Getposts() {
     role: "Backend Software Engineer (Full-Time)", 
   }, 
   {
-    id: "9", 
+    _id: "9", 
     name: "Government Technology Agency (GovTech)",
     img: govtechLogo, 
     rating: 4, 
