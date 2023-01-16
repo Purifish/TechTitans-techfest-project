@@ -11,7 +11,7 @@ function Interview() {
         <div>
           <h1 class="section-a-h1">Did you know?</h1>
           <p class="section-a-p">
-            82% of hiring managers employ virutal interviews
+            82% of hiring managers employ virtual interviews
             <br></br>
             <br></br>
             Get a headstart in preparing for virtual interviews with us!
