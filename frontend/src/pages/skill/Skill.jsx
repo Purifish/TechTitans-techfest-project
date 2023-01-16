@@ -28,19 +28,19 @@ function Skill() {
       </div>
 
       <div className="progressBar">
-        <h5>React: 73%</h5>
+        <h5>React:  73% Completed, 27% Left!</h5>
         <ProgressBar now={percentage} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h5>NodeJS: 70%</h5>
+        <h5>NodeJS:  70% Completed, 30% Left!</h5>
         <ProgressBar now={70} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h5>AngularJS: 54%</h5>
+        <h5>AngularJS:  54% Completed, 46% Left!</h5>
         <ProgressBar now={54} />
         <Box padding={3}></Box>
       </div>
@@ -52,13 +52,13 @@ function Skill() {
 
       <div className="progressBar">
 
-        <h5>ExpressJS: 80%</h5>
+        <h5>ExpressJS:  80% Completed, 20% Left!</h5>
         <ProgressBar now={80} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h5>SQL: 74%</h5>
+        <h5>SQL:  74% Completed, 26% Left!</h5>
         <ProgressBar now={74} />
         <Box padding={3}></Box>
       </div>
@@ -66,7 +66,7 @@ function Skill() {
 
 
       <div className="progressBar">
-        <h5>Java: 64%</h5>
+        <h5>Java:  64% Completed, 36% Left!</h5>
         <ProgressBar now={64} />
         <Box padding={2}></Box>
       </div>
@@ -76,13 +76,13 @@ function Skill() {
       </div>
 
       <div className="progressBar">
-        <h5>Flask: 24%</h5>
+        <h5>Flask:  24% Completed, 76% Left!</h5>
         <ProgressBar now={24} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h5>Introduction to ML: 10%</h5>
+        <h5>Introduction to ML:  10% Completed, 90% Left!</h5>
         <ProgressBar now={10} />
         <Box padding={3}></Box>
       </div>
@@ -93,7 +93,7 @@ function Skill() {
       </div>
 
       <div className="progressBar">
-        <h5>Introduction to PHP: 71%</h5>
+        <h5>Introduction to PHP:  71% Completed, 29% Left!</h5>
         <ProgressBar now={71} />
         <Box padding={10}></Box>
       </div>
