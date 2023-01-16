@@ -18,7 +18,7 @@ function Individual() {
         days: "5 days ago",
         location: "Singapore",
         img: csitLogo, 
-        compensation: "$5,000 - $7,000 / mth",
+        compensation: "$5,000 - $7,500 / mth",
         rating: 5, 
         skills: "ReactJS, Javascript"
       }, 
