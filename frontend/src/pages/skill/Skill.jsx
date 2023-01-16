@@ -9,7 +9,7 @@ function Skill() {
     <Box padding={10}>
 
       <div>
-        <Typography>Your Progress</Typography>
+        <Typography variant="h2" gutterBottom>Your Progress</Typography>
       </div>
 
       <div className="progressBar">

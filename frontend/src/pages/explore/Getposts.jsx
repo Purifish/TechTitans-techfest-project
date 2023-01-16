@@ -1,7 +1,7 @@
 import React ,{useEffect, useState } from 'react'
 import Post from './Explore.jsx'
 import './Getpost.css'
-import { Grid } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 
 export default function Getposts() {
 
@@ -67,14 +67,13 @@ export default function Getposts() {
 
 
     return (
-      <Grid
+     <Grid
         container
         spacing= {4}
         paddingLeft = {40}
         paddingRight = {40}
         justifyContent = "center"
       >
-
           {posts?.map((posts) => {
             return(
               <Grid item xs={12} sm={6} md={4}>
