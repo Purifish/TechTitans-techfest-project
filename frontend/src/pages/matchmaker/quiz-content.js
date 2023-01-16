@@ -1,6 +1,6 @@
 export const quizContent = { 
     title: "Tech Career Matchmaker",
-    completedHtml: "<h2>NICE {score}. You did great {role}!</h2>",
+    completedHtml: "<h3>Based on your answers, we think that you would make a great {role}!</h3>",
     pages: [
       {
         "title": "Which of these languages do you like the most?",
