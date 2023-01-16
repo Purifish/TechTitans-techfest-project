@@ -44,9 +44,11 @@ Individuals may have a dream career but they may be unsure of what types of care
 
 Project is created with:
 
+- HTML
+- CSS
+- Javascript
 - React version: 18.2.0
-- NodeJS
-- Material UI
+- Material UI V5
 
 ## Contributors[![](./README_docsAndimages/pin.svg)](#contributors)
 
