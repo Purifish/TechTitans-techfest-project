@@ -12,7 +12,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import { Link } from 'react-router-dom';
 function MuiDrawer() {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false)
-    const linksArr = ["home", "explore", "order"]
+    const linksArr = ["home", "explore", 'skill', 'training', 'interview', 'matchmaker']
 
   return (
     <>
@@ -26,7 +26,7 @@ function MuiDrawer() {
         >
             <Box p={2} width="250px" textAlign="center" role="presentation">
                 <Typography variant='h6' component="div">
-                    StoreIT Navigation
+                    TechTitans Navigation
                 </Typography>
             </Box>
             <Divider />
