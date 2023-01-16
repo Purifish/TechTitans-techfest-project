@@ -24,14 +24,19 @@ We believe job search should be light, not stressful and complicated. We created
 ## Key features[![](./README_docsAndimages/pin.svg)](#key-features)
 
 ### Career Explorer
+Despite the vast knowledge available across the web, the tech scene is constantly changing with new frameworks and more efficient systems constantly being developed. Our web page aims to display the latest information on careers such as from industry leaders and tech veterans. This information will be constantly updated based on the industry's demands.
 
 ### Skill Builder 
 This tool is created to assist developers/job seekers to find out what are the in demand skills headhunters/recruiters are currently looking for. Filtering skillsets according to their career preferences, this tool personalises the experience for job seekers and recommends courses from SkillsFuture/Coursera to upskill themselves to increase their employability.
 
 ### Coding Advancer 
+Coding interviews may be the toughest component of tech interviews and the ability to ace it will definitely increase an individual's employability. Therefore we also provide individuals with an online coding interview environment to practice on. Questions can range from intern-level to managerial-level questions and solutions will be released for individuals to reference and improve upon.
 
 ### Mock Interviewer
+One of the most important aspects of clinching a dream job is acing the interview. The mock interview page allows users to undergo an interview in a mock setting. The recorded interview can be reviewed and evaluated for individuals to improve upon their interview skills. Users can receive feedback on how to improve their interview skills.
 
+### Career Matchmaker
+Individuals may have a dream career but they may be unsure of what types of career they are suited for. The career matchmaker service aims to let users have a better understanding of what kind of tech jobs are available in the current market for them. By answering a series of questions, we will be able to provide the user with a suitable career based on our in-house algorithms.
 
 
 ## Technologies[![](./README_docsAndimages/pin.svg)](#technologies)
