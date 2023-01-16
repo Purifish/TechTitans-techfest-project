@@ -7,6 +7,7 @@ import Skill from "./pages/skill/Skill";
 import Training from "./pages/training/Training";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Matchmaker from "./pages/matchmaker/Matchmaker";
+import Individual from "./pages/explore/Individual";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />}></Route>
               <Route path="/explore" element={<Explore />}></Route>
+              {/* <Route path="/explore/:id" element={<Individual />}></Route> */}
+              <Route path="/explore/:id" element={<Individual />}></Route>
               <Route path="/skill" element={<Skill />}></Route>
               <Route path="/interview" element={<Interview />}></Route>
               <Route path="/training" element={<Training />}></Route>
