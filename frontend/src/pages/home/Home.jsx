@@ -42,8 +42,8 @@ function Home() {
           <h3 class="text-2">Uncertain of future career path in the tech industry?</h3>
           <h2 class="text-5">TechTitans got your back.</h2>
           <p class="mt-1">
-            Everyone has an ideal career but not everyone is able to realise it.
-            Figuring out our individual career path may not be an easy job.
+            Everyone has an ideal career but not everyone is able to realise it.<br></br>
+            Figuring out our individual career path may not be an easy job.<br></br>
             Navigate the features by TechTitans to find out more!
           </p>
         </div>
