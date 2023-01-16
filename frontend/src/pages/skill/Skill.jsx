@@ -19,19 +19,19 @@ function Skill() {
       </div>
 
       <div className="progressBar">
-        <h4>React - Coursera</h4>
+        <h4>React</h4>
         <ProgressBar now={percentage} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h4>NodeJS - Coursera</h4>
+        <h4>NodeJS</h4>
         <ProgressBar now={70} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h4>AngularJS - Coursera</h4>
+        <h4>AngularJS</h4>
         <ProgressBar now={54} />
         <Box padding={2}></Box>
       </div>
@@ -43,13 +43,13 @@ function Skill() {
 
       <div className="progressBar">
 
-        <h4>ExpressJS - Udemy</h4>
+        <h4>ExpressJS</h4>
         <ProgressBar now={80} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h4>SQL - Udemy</h4>
+        <h4>SQL</h4>
         <ProgressBar now={74} />
         <Box padding={2}></Box>
       </div>
@@ -57,23 +57,23 @@ function Skill() {
 
 
       <div className="progressBar">
-        <h4>Java - Udemy</h4>
+        <h4>Java</h4>
         <ProgressBar now={64} />
         <Box padding={2}></Box>
       </div>
 
       <div>
-        <Typography variant="h4" gutterBottom>Your EduX Progress</Typography>
+        <Typography variant="h4" gutterBottom>Your EdX Progress</Typography>
       </div>
 
       <div className="progressBar">
-        <h4>Flask - EduX</h4>
+        <h4>Flask</h4>
         <ProgressBar now={24} />
         <Box padding={2}></Box>
       </div>
 
       <div className="progressBar">
-        <h4>Introduction to ML - EduX</h4>
+        <h4>Introduction to ML</h4>
         <ProgressBar now={10} />
         <Box padding={2}></Box>
       </div>
