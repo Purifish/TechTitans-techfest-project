@@ -8,9 +8,9 @@ function Interview() {
   return (
     <Box
     margin="auto" 
-    paddingTop="40px" width = '100%' paddingLeft="150px">
+    paddingTop="200px" width = '100%' paddingLeft="20px">
       
-    {<img src={Pic1} width="1600" height="800"/>}
+    {<img src={Pic1} width="1200" height="600"/>}
       
     </Box>
 
