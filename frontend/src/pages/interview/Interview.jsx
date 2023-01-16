@@ -14,7 +14,7 @@ function Interview() {
             82% of hiring managers employ virutal interviews
             <br></br>
             <br></br>
-            Get a headstart in preparing for virutal interviews with us!
+            Get a headstart in preparing for virtual interviews with us!
           </p>
           <Button 
               type= "submit" 
