@@ -19,7 +19,6 @@ const Img = styled('img')({
 });
 
 export default function Explore({posts}) {
-  const navigate = useNavigate()
   return (
     <Link to={`/explore/${posts._id}`} style={{ textDecoration: 'none', color: 'white' }} >
         <Paper
