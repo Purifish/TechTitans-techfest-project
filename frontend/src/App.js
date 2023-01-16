@@ -21,6 +21,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />}></Route>
               <Route path="/explore" element={<Explore />}></Route>
+              {/* <Route path="/explore/:id" element={<Individual />}></Route> */}
               <Route path="/skill" element={<Skill />}></Route>
               <Route path="/interview" element={<Interview />}></Route>
               <Route path="/training" element={<Training />}></Route>
