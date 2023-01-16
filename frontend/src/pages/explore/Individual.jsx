@@ -111,7 +111,7 @@ function Individual() {
         skills: "Python, React, Javascript", 
         role: "Backend Software Engineer (Full-Time)", 
       }, 
-      {
+            {
         id: "9", 
         name: "Government Technology Agency (GovTech)",
         img: govtechLogo, 
@@ -122,12 +122,9 @@ function Individual() {
         compensation: "$5,000 - $7,000 / mth",
         skills: "Docker, Container, OOP, Kubernetes", 
         role: "DevOps Engineer (Full-Time)", 
-      }
+      },
       ]);
 
-      let result = posts.filter(obj => {
-        return obj._id === path -1
-      })
 
 
   return (

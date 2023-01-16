@@ -139,6 +139,7 @@ export default function Getposts() {
               <Grid item xs={12} sm={6} md={4}>
               <Post
                 posts={posts} 
+                key={posts._id}
               />
               </Grid>
             )
