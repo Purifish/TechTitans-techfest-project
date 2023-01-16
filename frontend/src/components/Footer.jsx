@@ -30,7 +30,7 @@ export default function Footer() {
               color: Colors.dove_gray,
             }}
           >
-            Copyright © 2023 All Rights Reserved by TECHTITIANS
+            Copyright © 2023 All Rights Reserved by TechTitans
           </Box>
         </Grid>
       </Grid>

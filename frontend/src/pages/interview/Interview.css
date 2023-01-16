@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.chart {
+  font-family: Roboto;
+  border-radius: 5px;
+  position: relative;
+  min-height: 400px;
+
+  margin: 150px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #8b96a3;
+  background: rgba(255, 255, 255, 9);
+  box-shadow: 0 0px 2px 0px #ccc;
+}
+
+.chart .skills {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.chart .skills li {
+  text-align: right;
+  font-size: 18px;
+  margin: 5px 0px;
+  color: #333;
+}
+.chart li {
+  list-style: none;
+  flex: 1;
+  position: relative;
+  padding: 10px 0px;
+}
+.chart .bars {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.chart .bars .bar {
+  width: 0px;
+  background: #47ead4;
+  padding: 10px 0px;
+  float: left;
+  color: #333;
+  overflow: hidden;
+  text-align: center;
+}
+.chart .bars .bar:nth-child(odd),
+#personal {
+  background: #223138;
+  color: #fff;
+}
+
+.chart .bars .bar:nth-child(odd):hover {
+  background: #0f1e26;
+}
+.chart .bars .bar:nth-child(even):hover {
+  background: #40cfbc;
+}
+#profession {
+  background: #47ead4;
+  color: #333;
+}
+#profession,
+#personal {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .chart {
+    width: 100%;
+  }
+  .skills {
+    width: 20%;
+  }
+  .bars {
+    width: 75%;
+    left: 25%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .chart {
+    width: 90%;
+  }
+  .skills {
+    width: 13%;
+  }
+  .bars {
+    width: 85%;
+    left: 15%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .chart {
+    width: 70%;
+    max-width: 1000px;
+  }
+  .skills {
+    width: 13%;
+  }
+  .bars {
+    width: 85%;
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .chart {
+    width: 100%;
+  }
+  .skills {
+    width: 30%;
+  }
+  .bars {
+    width: 65%;
+    left: 35%;
+  }
+}
