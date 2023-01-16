@@ -8,7 +8,8 @@ import ButtonBase from '@mui/material/ButtonBase';
 // import smallBoxImage from '../assets/smallBoxes.jpg'
 import Rating from '@mui/material/Rating';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { Divider } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Img = styled('img')({
   margin: 'auto',
@@ -18,8 +19,10 @@ const Img = styled('img')({
 });
 
 export default function Explore({posts}) {
+  const navigate = useNavigate()
   return (
-    <Paper
+    <Link to={`/explore/${posts._id}`} style={{ textDecoration: 'none', color: 'white' }} >
+        <Paper
     variant="outlined"
       sx={{
         p: 2,
@@ -32,7 +35,7 @@ export default function Explore({posts}) {
     >
       <Grid container spacing={1}>
         <Grid item>
-          <ButtonBase sx={{ width: 128, height: 128 }}>
+          <ButtonBase sx={{ width: 128, height: 128 }} >
             <Img alt="small-box" src={posts.img} />
           </ButtonBase>
         </Grid>
@@ -62,6 +65,8 @@ export default function Explore({posts}) {
         </Grid>
       </Grid>
     </Paper>
+    </Link>
+
   );
 }
 
