@@ -94,7 +94,7 @@
 
 .section-b {
   position: relative;
-  background: url("https://www.priceselfstorage.com/blog/wp-content/uploads/2015/12/stacked-labeled-boxes.jpg")
+  background: url("https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2018/04/08150158/How-to-Find-your-Unique-Path-to-Career-Success-1-1024x512.jpg")
     no-repeat bottom center/cover;
   height: 900px;
 }
@@ -168,6 +168,7 @@
 .feature-container {
   flex-basis: 30%;
   margin-top: 10px;
+  padding-right: 20px;
 }
 
 .feature-container p {
