@@ -9,6 +9,7 @@ export const quizContent = {
       Based on your answers, we think that you would make a great {role}!
       </p>
     </div>
+    <img class="section-a-image" src="https://www.gqrgm.com/wp-content/uploads/2018/10/How-To-Become-A-Machine-Learning-Engineer.jpg" alt="" /> 
   </div>
 </section>`,
   pages: [
