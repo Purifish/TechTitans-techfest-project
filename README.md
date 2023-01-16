@@ -1,6 +1,6 @@
 # TechTitans-techfest-project
 
-**Description** : 
+**Description** : TechTitans aims to bring creative solutions to help aspiring techies to determine their career paths in the tech industry through increasing outreach to the student population. We hope to give users a customized exprience in navigating through their journey to clinch their desired jobs.
 <br>Website link: </br>
 
 ## Table of contents
