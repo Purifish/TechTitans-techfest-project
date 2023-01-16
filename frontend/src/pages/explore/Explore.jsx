@@ -6,6 +6,9 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
 // import smallBoxImage from '../assets/smallBoxes.jpg'
+import Rating from '@mui/material/Rating';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { Divider } from '@mui/material';
 
 const Img = styled('img')({
   margin: 'auto',
@@ -19,41 +22,42 @@ export default function Explore({posts}) {
     <Paper
     variant="outlined"
       sx={{
-        p: 5,
+        p: 2,
         margin: 'auto',
-        maxWidth: 500,
+        maxWidth: "100%",
         flexGrow: 1,
         backgroundColor: (theme) =>
           theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
       }}
     >
-      <Grid container spacing={3}>
+      <Grid container spacing={1}>
         <Grid item>
           <ButtonBase sx={{ width: 128, height: 128 }}>
             <Img alt="small-box" src={posts.img} />
           </ButtonBase>
         </Grid>
-        <Grid item xs={12} sm container>
-          <Grid item xs container direction="column" spacing={2}>
-            <Grid item xs>
+        <Grid item md={8} container>
+          <Grid item ms container direction="column" spacing={2}>
+            <Grid item md ={6}>
               <Typography gutterBottom variant="subtitle1" component="div">
-                {posts.name}
+                
               </Typography>
-              <Typography variant="body2" gutterBottom>
-                Dimensions: 35cm (L) x 25cm (W) x 25cm (H)
+              <Typography component="legend">{posts.name}</Typography>
+              <Rating name="half-rating-read" precision={0.5} value={posts.rating} readOnly />
+              <Typography sx={{ fontWeight: 'bold' }} variant="body1" gutterBottom>
+                {posts.role}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-              Approximately the content of a backpack
+              <Typography variant="body1" color="text.secondary">
+              <LocationOnIcon />{posts.location} {posts.days} 
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-              Things that fit: Documents & photos, Books & stationery, Small appliances & cookware, Toys, Laptop
+              <Typography variant="body1" color="text.primary">
+              {posts.compensation}
+              </Typography>
+              <hr></hr>
+              <Typography variant="body1" color="text.secondary">
+              {posts.skills}
               </Typography>
             </Grid>
-          </Grid>
-          <Grid item>
-            <Typography variant="subtitle1" component="div">
-              $8.00
-            </Typography>
           </Grid>
         </Grid>
       </Grid>
