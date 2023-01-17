@@ -106,18 +106,18 @@ function thinkingScore(choice, scores) {
         }
     }
 
-    if (choice === 1) { // logical
+    if (index === 1) { // logical
         scores[0] += 12;
         scores[5] += 12;
-    } else if (choice === 2) { // artistic
+    } else if (index === 2) { // artistic
         scores[1] += 12;
         scores[4] += 12;
-    } else if (choice === 3) { // creative
+    } else if (index === 3) { // creative
         scores[1] += 6;
         scores[3] += 6;
         scores[2] += 12;
         scores[4] += 12;
-    } else if (choice === 4) { // brainstormer
+    } else if (index === 4) { // brainstormer
         scores[3] += 12;
         scores[2] += 6;
         scores[4] += 6;
