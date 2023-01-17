@@ -9,7 +9,6 @@ import { languageScore, mathScore, thinkingScore, interestScore } from "./matchm
 StylesManager.applyTheme("defaultV2");
 
 function Matchmaker() {
-
     const survey = new Model(quizContent);
 
     survey.onComplete.add((sender, options) => {
@@ -23,7 +22,7 @@ function Matchmaker() {
             "Fullstack Developer",
             "ML Engineer" 
         ];
-
+    
         const imageUrls = [
             "https://cloudinary.hbs.edu/hbsit/image/upload/s--I2Gu66-p--/f_auto,c_fill,h_375,w_750,/v20200101/57C255C00BF4E0FB67F6DA704E94003B.jpg",
             "https://cdn.august.com.au/wp-content/uploads/2015/04/Allan_Get-Web-Developer-Savvy_header.png",
@@ -32,7 +31,7 @@ function Matchmaker() {
             "https://res.cloudinary.com/dmsxwwfb5/image/upload/v1595866967/full-stack-devlopment-min.png",
             "https://www.gqrgm.com/wp-content/uploads/2018/10/How-To-Become-A-Machine-Learning-Engineer.jpg"
         ]
-
+    
         let scores = [0, 0, 0, 0, 0, 0];
 
         languageScore(sender.data.language[0], scores);
@@ -52,7 +51,7 @@ function Matchmaker() {
             if (scores[i] > scores[bestRole]) {
                 bestRole = i;
                 
-            } else if (scores[i] === scores[bestRole] && Math.floor((Math.random() * 2) === 1)) {
+            } else if (scores[i] === scores[bestRole] && Math.floor(Math.random() * 2) === 1) {
                 bestRole = i;
             }
         }
@@ -62,9 +61,9 @@ function Matchmaker() {
     });
 
     return (
-        <div>
-            <Survey model={survey} />
-        </div>
+        <>
+            <Survey model={survey} /> 
+        </>
     );
 }
 

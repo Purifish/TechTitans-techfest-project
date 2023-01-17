@@ -1,17 +1,17 @@
 export const quizContent = {
   title: "Tech Career Matchmaker",
   completedHtml: `   
-  <section class="section-a">
-  <div class="home-container">
-    <div>
-      <h1 class="section-a-h1">Congratuations! </h1>
-      <p class="section-a-p">
-      Based on your answers, we think that you would make a great {role}!
-      </p>
-    </div>
-    <img class="section-a-image" src={image} alt="" /> 
-  </div>
-</section>`,
+    <section class="section-a">
+        <div class="home-container">
+            <div>
+                <h1 class="section-a-h1">Congratulations!</h1>
+                <p class="section-a-p">
+                    Based on your answers, we think that you would make a great {role}!
+                </p>
+            </div>
+            <img class="section-a-image" src={image} alt="" /> 
+        </div>
+    </section>`,
   pages: [
     {
       title: "Which of these languages do you like the most?",
