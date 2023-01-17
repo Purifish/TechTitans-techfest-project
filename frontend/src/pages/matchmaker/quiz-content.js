@@ -1,17 +1,17 @@
 export const quizContent = {
   title: "Tech Career Matchmaker",
   completedHtml: `   
-  <section class="section-a">
-  <div class="home-container">
-    <div>
-      <h1 class="section-a-h1">Congratuations! </h1>
-      <p class="section-a-p">
-      Based on your answers, we think that you would make a great {role}!
-      </p>
-    </div>
-    <img class="section-a-image" src="https://www.gqrgm.com/wp-content/uploads/2018/10/How-To-Become-A-Machine-Learning-Engineer.jpg" alt="" /> 
-  </div>
-</section>`,
+    <section class="section-a">
+        <div class="home-container">
+            <div>
+                <h1 class="section-a-h1">Congratulations!</h1>
+                <p class="section-a-p">
+                    Based on your answers, we think that you would make a great {role}!
+                </p>
+            </div>
+            <img class="section-a-image" src={image} alt="" /> 
+        </div>
+    </section>`,
   pages: [
     {
       title: "Which of these languages do you like the most?",
@@ -81,6 +81,7 @@ export const quizContent = {
           type: "rating",
           name: "social",
           title: "Choose the option that describes you the best",
+          isRequired: true,
           rateValues: [
             { value: "social1", text: "1" },
             { value: "social2", text: "2" },

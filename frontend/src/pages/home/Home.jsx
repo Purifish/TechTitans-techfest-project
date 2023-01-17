@@ -13,7 +13,7 @@ function Home() {
   const navigate = useNavigate()
 
   return (
-    <div class = "homepage">
+    <div class="homepage">
     
     <section class="section-a">
       <div class="home-container">
